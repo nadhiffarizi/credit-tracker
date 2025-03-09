@@ -1,8 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { TypedUseSelectorHook, useDispatch, UseDispatch, useSelector, UseSelector } from "react-redux";
+import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import addFriendToggleSlice from "./slicer/addfriendtoggle.slice";
 import friendsSlice from "./slicer/friend.slice"
-import selectSlice from "./slicer/selecttoggle.slice"
+import selectSlice from "./slicer/selectToggle.slice"
 import selectFriendSlice from "./slicer/selectedFriend.slice"
 
 const reducersCombined = combineReducers({

@@ -5,7 +5,7 @@ import IInputCoPayment from "../Interface/inputcopayment.interface";
 import IFriend from "../Interface/friend.interface";
 import { useAppDispatch } from "../redux/store";
 import { updateCopaymentDetails } from "../redux/slicer/friend.slice";
-import { selectToggle } from "../redux/slicer/selecttoggle.slice";
+import { selectToggle } from "../redux/slicer/selectToggle.slice";
 import IToggle from "../Interface/toggle.interface";
 
 export function AddCreditDetails({
